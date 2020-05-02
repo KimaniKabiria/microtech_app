@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "microtech_fuel",
-    "slug": "microtech_fuel",
+    "name": "microtech_app",
+    "slug": "microtech_app",
     "platforms": [
       "ios",
       "android",
