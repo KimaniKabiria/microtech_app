@@ -1,12 +1,21 @@
 {
   "expo": {
-    "name": "microtech_app",
-    "slug": "microtech_app",
+    "name": "Microtech",
+    "slug": "microtech",
     "platforms": [
       "ios",
       "android",
       "web"
     ],
+    "ios": {
+      "bundleIdentifier": "com.microtech.app",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.microtech.app",
+      "versionCode": 1
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,8 +30,7 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    }
+    "description": "A mobile app to control ESP8266 powered devices built by Microtech digital solutions",
+    "githubUrl": "https://github.com/KimaniKabiria/microtech_app"
   }
 }
