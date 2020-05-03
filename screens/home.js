@@ -26,7 +26,7 @@ export default class Home extends React.Component {
           <WebView
             style={{flex: 1}}
             originWhitelist={['*']}
-            source={{ uri: "https://google.com" }}
+            source={{ uri: "http://192.168.254.1" }}
             style={{ marginTop: 0 }}
             ref={(ref) => this.myWebView = ref}
           />
