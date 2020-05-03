@@ -1,52 +1,19 @@
 import React from 'react';
-import { StyleSheet, Text, SafeAreaView, ScrollView, View } from 'react-native';
-import Constants from 'expo-constants';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      <ScrollView style={styles.scrollView}>
-        <Text style={styles.boldText}>We are MicroTech Digital Solutions</Text>
-        <Text style={styles.text}>
-        Call: +254 715 800 843
-        </Text>
-      </ScrollView>
-    </SafeAreaView>
+    <View style={styles.container}>
+      <Text>Open up App.js to start working on your app!</Text>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: Constants.statusBarHeight,
-    justifyContent: 'center',
+    backgroundColor: '#fff',
     alignItems: 'center',
-  },
-  scrollView: {
-    marginTop:100,
-    marginHorizontal: 20,
-  },
-  text: {
-    marginTop:20,
-    fontSize: 24,
-    textAlign: 'center',
-  },
-  boldText:{
-    fontWeight: 'bold',
-    fontSize: 36,
-    textAlign: 'center',
-  },
-  header:{
-      height: 50,
-      paddingTop: 15,
-      backgroundColor: 'skyblue',
-      alignContent: 'center'
-  },
-  titleText: {
-      color: 'white',
-      fontWeight: 'bold',
-      marginLeft: 20,
-      fontSize: 20,
-      textAlign: 'center',
+    justifyContent: 'center',
   },
 });
