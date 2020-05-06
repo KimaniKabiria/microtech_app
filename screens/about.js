@@ -14,6 +14,9 @@ export default function App() {
       <View style={styles.contact}>
         <FontAwesome name="phone-square" size={24} style={styles.contactIcon} />
         <Text style={styles.contactText}>0738 252 333</Text>
+      </View><View style={styles.contact}>
+        <FontAwesome name="phone-square" size={24} style={styles.contactIcon} />
+        <Text style={styles.contactText}>0715 800 843</Text>
       </View>
       <View style={styles.contact}>
         <Ionicons name="md-mail" size={24} style={styles.contactIcon} />
@@ -38,6 +41,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 32,
     padding: 10,
+    marginTop: 100,
   },
   contact:{
     flexDirection: 'row',

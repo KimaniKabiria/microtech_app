@@ -15,7 +15,7 @@ export default class Home extends React.Component {
           <View style={styles.header}>
             <View style={styles.headerImg}>              
               <Image
-                style={{ width: 150, height: 28 }}
+                style={{ width: 175, height: 36 }}
                 source = {require('../assets/splash.png')}
               />
             </View>
@@ -26,7 +26,7 @@ export default class Home extends React.Component {
           <WebView
             style={{flex: 1}}
             originWhitelist={['*']}
-            source={{ uri: "http://192.168.254.1" }}
+            source={{ uri: "http://google.com" }}
             style={{ marginTop: 0 }}
             ref={(ref) => this.myWebView = ref}
           />
@@ -51,8 +51,13 @@ export default class Home extends React.Component {
     },
     headerImg:{
       flex:7,
+      alignContent: 'center',
+      justifyContent: 'center',
+      paddingLeft: 85,
     },
     headerBtn:{
-      flex:1
+      flex:1,
+      alignContent: 'center',
+      justifyContent: 'center',
     }
   })
